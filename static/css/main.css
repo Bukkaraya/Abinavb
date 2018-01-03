@@ -1,0 +1,12 @@
+.footer{
+    background-color: hsl(204, 86%, 53%);
+    padding: 3em 1.5em;
+}
+
+.copy{
+    color: white;
+}
+
+.info{
+    min-height: 450px;
+}
