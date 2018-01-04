@@ -3,10 +3,29 @@
     padding: 3em 1.5em;
 }
 
+.section{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
 .copy{
     color: white;
 }
 
 .info{
     min-height: 450px;
+}
+
+
+.project-card-header{
+    background-color: hsl(204, 86%, 53%);
+}
+
+.project-card-header p{
+    color: white;
+}
+
+.subtitle{
+    padding: 0.5em 0;
 }
