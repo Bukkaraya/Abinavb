@@ -6,14 +6,74 @@ Home |
 {% endblock %}
 
 {% block body %}
-    <section class="section info">
+    <section class="section has-text-centered">
+        <p class="is-size-5">Welcome to my website. I enjoy programming and also learning new things. I am currently interested in machine learning and web development. Most of the projects I have worked on and working on will be listed on this page. I also enjoy writing scripts that automate daily tasks.</p>
+    </section>
+    <section class="section is-paddingless">
         <div class="container has-text-centered">
-            <div class="columns is-mobile is-centered">
-                <div class="child">
-                    <h1 class="title is-size-4">Abinav Bukkaraya</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque exercitationem esse earum dolores nemo, ex quas sit quisquam vel perferendis quae atque hic pariatur optio quaerat ipsa, porro, ea natus.Reiciendis accusamus maiores nostrum quod eveniet totam numquam adipisci sequi dicta tempora qui iure itaque, repellendus quis delectus. Sequi repudiandae ex animi necessitatibus quibusdam, excepturi hic consequuntur ullam inventore nihil!</p>
-                </div>
-            </div>
+        <h1 class="title">Projects</h1>
+        <h2 class="subtitle">
+            A list of projects I am currently working on and have finished
+        </h2>
         </div>
+    </section>
+    <section class="section">
+            <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                            <div class="card">
+                                    <header class="card-header project-card-header">
+                                      <p class="card-header-title is-size-4">
+                                        Roshi
+                                      </p>
+                                    </header>
+                                    <div class="card-content">
+                                      <div class="content">
+                                        Roshi is a simple web scraper that downloads manga (japanese comics). It can download the latest chapter of a specific manga or it can download an entire series. The project uses BeautifulSoup to parse webpages.
+                                        <br>
+                                      </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                      <a href="https://github.com/Bukkaraya/Roshi" class="card-footer-item">Github</a>
+                                    </footer>
+                                  </div>
+                    </div>
+                    <div class="tile is-parent">
+                            <div class="card">
+                                    <header class="card-header project-card-header">
+                                      <p class="card-header-title is-size-4">
+                                        Algorithms
+                                      </p>
+                                    </header>
+                                    <div class="card-content">
+                                      <div class="content">
+                                        My implementations of commonly known algorithms and data structures. I decided all implementations should be done without using any libraries to gain more insight on how they work.
+                                        <br>
+                                      </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                      <a href="https://github.com/Bukkaraya/Algorithms" class="card-footer-item">Github</a>
+                                      <a href="https://paper.dropbox.com/doc/Algorithms-Pxbi7FKaEoiprhE7sJ0VS" class="card-footer-item">List</a>
+                                    </footer>
+                                  </div>
+                    </div>
+                    <div class="tile is-parent">
+                            <div class="card">
+                                    <header class="card-header project-card-header">
+                                      <p class="card-header-title is-size-4">
+                                        Chronosal
+                                      </p>
+                                    </header>
+                                    <div class="card-content">
+                                      <div class="content">
+                                        A simple to-do list application which is used to keep track of tasks. The application was written in python using Django. I am planning to write a REST API so I can integrate it with my AIY voice box.
+                                        <br>
+                                      </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                      <a href="http://chronosal.com/" class="card-footer-item">Chronosal.com</a>
+                                    </footer>
+                            </div>
+                    </div>
+                  </div>
     </section>
 {% endblock %}

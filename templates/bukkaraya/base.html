@@ -33,14 +33,14 @@
                         <a class="navbar-item {% if active == 'home' %} is-active{% endif %}" href="{% url 'home' %}">
                         Home
                         </a>
-                        <a class="navbar-item {% if active == 'projects' %}is-active{% endif %}" href="{% url 'projects' %}">
-                        Projects
-                        </a>
-                        <a class="navbar-item {% if active == 'contact' %} is-active {% endif %}" href="{% url 'contact' %}">
-                        Contact
-                        </a>
                         <span class="navbar-item">
-                        </span>
+                            <a class="button is-info is-inverted">
+                              <span class="icon">
+                                <i class="fa fa-github"></i>
+                              </span>
+                              <span>Source</span>
+                            </a>
+                          </span>
                     </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
         <div class="container is-info">
           <div class="content has-text-centered">
             <p class="is-size-6 copy">
-                This site was written by Abinav Bukkaraya<sup>&copy;</sup> with Django. Copyright 2018
+                This site was written by Abinav Bukkaraya with Django. Copyright 2018
             </p>
             <p>
             <a href="https://bulma.io">
