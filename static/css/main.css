@@ -8,12 +8,14 @@
     margin: 0 auto;
 }
 
+.info{
+    min-height: 250px;
+}
 
 .copy{
     color: white;
+    margin-bottom: 0px;
 }
-
-
 
 .project-card-header{
     background-color: hsl(204, 86%, 53%);
@@ -24,5 +26,14 @@
 }
 
 .subtitle{
+    padding: 0.5em 0;
+}
+
+.icon i{
+    font-size: 1.75em;
+    color: white;
+}
+
+.social-icons{
     padding: 0.5em 0;
 }
